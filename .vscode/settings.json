@@ -1,0 +1,163 @@
+{
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true,
+    "source.organizeImports.sortImports": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": true,
+  "eslint.nodePath": "Web/Web.Client/.yarn/sdks",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "json",
+    "typescript",
+    "typescriptreact",
+    "yaml"
+  ],
+  "files.autoGuessEncoding": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "flow.pathToFlow": "${workspaceFolder}/Web/Web.Client/.yarn/sdks/flow-bin/cli.js",
+  "formatContextMenu.closeAfterSave": true,
+  "formatFiles.excludedFolders": [
+    ".chrome",
+    ".git",
+    ".npm",
+    ".vs",
+    ".vs-debug",
+    ".vs-test",
+    ".yarn",
+    "build",
+    "builds",
+    "dist",
+    "lib",
+    "libs",
+    "node_modules",
+    "web_modules"
+  ],
+  "formatFiles.excludePattern": "*.DotSettings.*,*.csproj,*.env,*.esproj,*.lock,*.pnp.*,*.user,nuget.config,package-lock.*",
+  "formatFiles.runOrganizeImports": true,
+  "git.allowForcePush": true,
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.fetchOnPull": true,
+  "git.showPushSuccessNotification": true,
+  "prettier.arrowParens": "always",
+  "prettier.bracketSameLine": false,
+  "prettier.bracketSpacing": true,
+  "prettier.embeddedLanguageFormatting": "auto",
+  "prettier.endOfLine": "lf",
+  "prettier.htmlWhitespaceSensitivity": "css",
+  "prettier.insertPragma": false,
+  "prettier.jsxSingleQuote": false,
+  "prettier.prettierPath": "Web/Web.Client/.yarn/sdks/prettier/index.js",
+  "prettier.printWidth": 80,
+  "prettier.proseWrap": "preserve",
+  "prettier.quoteProps": "consistent",
+  "prettier.requireConfig": false,
+  "prettier.requirePragma": false,
+  "prettier.resolveGlobalModules": false,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "es5",
+  "prettier.useEditorConfig": true,
+  "prettier.useTabs": false,
+  "prettier.vueIndentScriptAndStyle": false,
+  "prettier.withNodeModules": false,
+  "redhat.telemetry.enabled": false,
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true,
+    "**/build": true,
+    "**/node_modules": true
+  },
+  "tabnine.experimentalAutoImports": true,
+  "telemetry.telemetryLevel": "off",
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "tsImportSorter.configuration.autoFormat": "onSave",
+  "tsImportSorter.configuration.bracketSpacing": true,
+  "tsImportSorter.configuration.configurationFileName": "import-sorter.json",
+  "tsImportSorter.configuration.development.enableDebug": false,
+  "tsImportSorter.configuration.emptyLinesAfterAllImports": 1,
+  "tsImportSorter.configuration.emptyLinesBetweenGroups": 1,
+  "tsImportSorter.configuration.exclude": [
+    ".yarn",
+    "build",
+    "node_modules",
+    "web_modules"
+  ],
+  "tsImportSorter.configuration.excludeGlob": [],
+  "tsImportSorter.configuration.force": false,
+  "tsImportSorter.configuration.formatExports": true,
+  "tsImportSorter.configuration.groupRules": [
+    "^react(-dom)?$",
+    "^@angular/",
+    "^vue$",
+    "^node:",
+    {},
+    "^[@]",
+    "^[.]"
+  ],
+  "tsImportSorter.configuration.hasSemicolon": true,
+  "tsImportSorter.configuration.ignoreESLintRules": [],
+  "tsImportSorter.configuration.insertFinalNewline": true,
+  "tsImportSorter.configuration.keepUnused": [],
+  "tsImportSorter.configuration.maxLineLength": 120,
+  "tsImportSorter.configuration.quoteMark": "single",
+  "tsImportSorter.configuration.removeLastIndexInPath": true,
+  "tsImportSorter.configuration.removeLastSlashInPath": true,
+  "tsImportSorter.configuration.root": true,
+  "tsImportSorter.sortImportsBy": "paths",
+  "tsImportSorter.configuration.sortRules": {
+    "paths": [
+      "_",
+      "aA"
+    ],
+    "names": [
+      "_",
+      "aA"
+    ]
+  },
+  "tsImportSorter.configuration.tabSize": 2,
+  "tsImportSorter.configuration.tabType": "space",
+  "tsImportSorter.configuration.trailingComma": "multiLine",
+  "tsImportSorter.configuration.wrappingStyle": "prettier",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.tsdk": "Web/Web.Client/.yarn/sdks/typescript/lib",
+  "workbench.colorTheme": "Sourcegraph Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace"
+  },
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "keep",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Products",
+  "error": {
+    "empty": "Empty"
+  },
+  "placeholder": {
+    "title": "Title"
+  },
+  "properties": {
+    "title": "Title",
+    "brand": "Brand",
+    "type": "Type",
+    "price": "Price",
+    "currency": "UAH",
+    "description": "Description"
+  }
+}
