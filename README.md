@@ -25,21 +25,21 @@
 #### Backup your original hosts
 
 ```
-copy /V %WINDIR%\System32\drivers\etc\hosts %WINDIR%\System32\drivers\etc\hosts.alevel.bak
+copy /V %WINDIR%\System32\drivers\etc\hosts %WINDIR%\System32\drivers\etc\hosts.original.bak
 ```
 
 #### Modify hosts file
 
 ```
-echo "0.0.0.0 www.alevelwebsite.com" >> %WINDIR%\System32\drivers\etc\hosts
+echo 0.0.0.0 www.alevelwebsite.com >> %WINDIR%\System32\drivers\etc\hosts
 ```
 
 ```
-echo "127.0.0.1 www.alevelwebsite.com" >> %WINDIR%\System32\drivers\etc\hosts
+echo 127.0.0.1 www.alevelwebsite.com >> %WINDIR%\System32\drivers\etc\hosts
 ```
 
 ```
-echo "192.168.0.1 www.alevelwebsite.com" >> %WINDIR%\System32\drivers\etc\hosts
+echo 192.168.0.1 www.alevelwebsite.com >> %WINDIR%\System32\drivers\etc\hosts
 ```
 
 ### For Mac or Linux
