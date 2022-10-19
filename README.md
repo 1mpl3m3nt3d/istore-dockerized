@@ -4,10 +4,6 @@
 
 [http://www.alevelwebsite.com](http://www.alevelwebsite.com)
 
-[http://docker.host.internal:5001](http://docker.host.internal:5001)
-
-[http://localhost:5001](http://localhost:5001)
-
 ## Swagger Urls
 
 [http://www.alevelwebsite.com:5000/swagger/index.html](http://www.alevelwebsite.com:5000/swagger/index.html)

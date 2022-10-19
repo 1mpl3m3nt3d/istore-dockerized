@@ -167,7 +167,7 @@ internal static class HostingExtensions
             options.Events.RaiseInformationEvents = true;
             options.Events.RaiseSuccessEvents = true;
 
-            options.IssuerUri = appConfig.IdentityUrl;
+            options.IssuerUri = appConfig.GlobalUrl;
 
             // see https://docs.duendesoftware.com/identityserver/v6/fundamentals/keys/
             options.KeyManagement.Enabled = true;
@@ -255,7 +255,7 @@ internal static class HostingExtensions
 
         app.Use(async (ctx, next) =>
         {
-            var identityUri = new Uri(webAppConfig.IdentityUrl);
+            var identityUri = new Uri(webAppConfig.GlobalUrl);
 
             var identityUrl =
                 $"{identityUri.Scheme}://{identityUri.Host}{(identityUri.IsDefaultPort ? string.Empty : $":{identityUri.Port}")}";
