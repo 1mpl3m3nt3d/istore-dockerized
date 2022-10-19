@@ -175,8 +175,8 @@ services:
   web.client:
     build:
       network: host
-      context: ../.
-      dockerfile: ./Web/Web.Client/Dockerfile.dev
+      context: ../Web/Web.Client/.
+      dockerfile: ./Dockerfile.dev
       target: dev
       cache_from:
         - node:alpine
@@ -185,10 +185,10 @@ services:
     labels:
       project: "iStore_Web.Client"
     volumes:
-      - ../istore-webclient/public:/app/public
-      - ../istore-webclient/src:/app/src
+      - ../Web/Web.Client/public:/app/public
+      - ../Web/Web.Client/src:/app/src
     env_file:
-      - ../istore-webclient/.env.docker.dev
+      - ../Web/Web.Client/.env.docker.dev
     environment:
       - COMPOSE_CONVERT_WINDOWS_PATHS=1
     ports:
